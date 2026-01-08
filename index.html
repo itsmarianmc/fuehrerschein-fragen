@@ -13,18 +13,22 @@
             <p>Durchsuchen Sie alle Führerschein-Prüfungsfragen</p>
         </div>
     </div>
-    <div class="container">
-        <div class="search-wrapper">
-            <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="11" cy="11" r="8"></circle>
-                <path d="m21 21-4.35-4.35"></path>
-            </svg>
-            <input id="search" placeholder="Gib eine Frage ein oder suche nach einer Fragennummer..." autocomplete="off" />
-            <svg class="reset-icon" id="reset" width="20" height="20" viewBox="0 -960 960 960" fill="#fff">
-                <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
-            </svg>
+    <div class="search-section">
+        <div class="container">
+            <div class="search-wrapper">
+                <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <path d="m21 21-4.35-4.35"></path>
+                </svg>
+                <input id="search" placeholder="Gib eine Frage ein oder suche nach einer Fragennummer..." autocomplete="off" />
+                <svg class="reset-icon" id="reset" width="20" height="20" viewBox="0 -960 960 960" fill="#fff">
+                    <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                </svg>
+            </div>
+            <div class="results-count" id="count">Laden...</div>
         </div>
-        <div class="results-count" id="count">Laden...</div>
+    </div>
+    <div class="container">
         <div class="list" id="list"><h1 style="color: #fff; margin: 0 auto;">Laden...</h1></div>
     </div>
     <footer>

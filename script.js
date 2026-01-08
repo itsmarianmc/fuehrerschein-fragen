@@ -129,6 +129,7 @@ function render(list) {
 
 document.getElementById("search").addEventListener("input", e => {
     clearTimeout(searchTimeout);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
     
     searchTimeout = setTimeout(() => {
         const q = normalizeText(e.target.value);
@@ -154,4 +155,12 @@ document.getElementById('reset').addEventListener('click', function() {
     const searchInput = document.getElementById('search');
     searchInput.value = '';
     render(allItems);
+});
+
+window.addEventListener('scroll', function() {
+    if (window.scrollY > 0) {
+        document.documentElement.classList.add('scrolling');
+    } else {
+        document.documentElement.classList.remove('scrolling');
+    }
 });
