@@ -109,8 +109,8 @@ function createQuestionPopup(questionData) {
                     }).join('')}
                 </div>
                 <div class="popup-buttons">
+                    <button class="btn check-answers">Antwort überprüfen</button>
                     <button class="btn show-answers">Alle Antworten anzeigen</button>
-                    <button class="btn check-answers">Antworten überprüfen</button>
                     <button class="btn reset-answers">Auswahl zurücksetzen</button>
                 </div>
                 <div class="result-container hidden">

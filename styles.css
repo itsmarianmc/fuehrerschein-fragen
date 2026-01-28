@@ -467,6 +467,7 @@ body {
 
 .container {
     max-width: 900px;
+    transition: all 0.3s ease;
     margin: 0 auto;
 }
 
@@ -708,32 +709,5 @@ footer {
     
     .answer-image {
         max-width: 150px;
-    }
-}
-
-@media (max-width: 480px) {
-    .header h1 {
-        font-size: 24px;
-    }
-    
-    .header p {
-        font-size: 13px;
-    }
-    
-    .search-section {
-        top: 120px;
-        padding: 10px 0;
-    }
-    
-    .container {
-        padding-top: 170px;
-    }
-    
-    #search {
-        padding: 16px 20px 16px 48px;
-    }
-    
-    #search:focus {
-        padding-left: 16px;
     }
 }
