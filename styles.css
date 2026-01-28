@@ -52,7 +52,7 @@ body {
     border-radius: 16px;
     width: 90%;
     max-width: 800px;
-    max-height: 90vh;
+    max-height: 80vh;
     overflow-y: auto;
     border: 2px solid #4a5568;
     box-shadow: 0 20px 60px rgba(0, 175, 157, 0.3);
