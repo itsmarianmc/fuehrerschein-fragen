@@ -127,6 +127,8 @@ body {
 }
 
 .popup-content {
+    max-height: 80vh;
+    overflow-y: scroll;
     padding: 25px;
 }
 
@@ -453,7 +455,7 @@ body {
     width: 100%;
     z-index: 999;
     background: #1b1d1e;
-    padding: 20px 0;
+    padding: 20px 10px;
     backdrop-filter: blur(10px);
     border-top: 4px solid #00AF9D;
     transition: all 0.3s ease;
@@ -662,7 +664,7 @@ footer {
 
 @media (max-width: 640px) {
     body {
-        padding-top: 120px;
+        padding-top: 280px;
     }
     
     .header {
@@ -678,12 +680,12 @@ footer {
     }
     
     .search-section {
-        top: 120px;
+        top: 98px;
         padding: 15px 0;
     }
-    
+
     .container {
-        padding-top: 180px;
+        padding: 10px;
     }
     
     .item {
