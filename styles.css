@@ -339,7 +339,6 @@ body {
     font-size: 18px;
 }
 
-/* Question button in list items */
 .question-btn {
     background: #00AF9D;
     border: none;
@@ -383,7 +382,6 @@ body {
     opacity: 1;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
     .question-popup {
         width: 95%;
@@ -417,7 +415,7 @@ body {
     left: 0;
     width: 100%;
     z-index: 1000;
-    border-bottom: none; /* Entfernt die untere Grenze */
+    border-bottom: none;
     backdrop-filter: blur(10px);
 }
 
