@@ -1,0 +1,54 @@
+{
+    "https://www.fuehrerschein-bestehen.de/Erklaerungen/ab-welchem-verkehrszeichen-duerfen-sie-eine-zulaessige-hoechstgeschwindigkeit-von-60-km-h-nicht-ueberschreiten-1-4-41-175": {
+        "question": "Ab welchem Verkehrszeichen dürfen Sie eine zulässige Höchstgeschwindigkeit von 60 km/h nicht überschreiten?",
+        "answers": {
+            "img[https://video4.kalaiwa.de/assets/1441175o3.png]": {
+                "wrong": true,
+                "explanation": "Dieses Verkehrszeichen zeigt dir an, dass auf dieser Straße eine Mindestgeschwindigkeit von 60 km/h vorgegeben ist. Fahrzeuge, die bauartbedingt nicht mindestens 60 km/h fahren können, dürfen diese Straße nicht befahren. Solange die Straßenverhältnisse und die Wetterlage es zulassen, solltest du nicht langsamer als 60 km/h fahren."
+            },
+            "img[https://video4.kalaiwa.de/assets/1441175o2.png]": {
+                "wrong": true,
+                "explanation": "Das Verkehrsschild zeigt dir an, dass die zulässige Höchstgeschwindigkeit von 60 km/h aufgehoben ist. Nach dem Schild darfst du demnach schneller als 60 km/h fahren."
+            },
+            "img[https://video4.kalaiwa.de/assets/1441175o1.png]": {
+                "wrong": false,
+                "explanation": "Auf einer Straße mit diesem Verkehrszeichen darfst du die zulässige Höchstgeschwindigkeit von 60 km/h nicht überschreiten."
+            }
+        },
+        "correct_answer": "img[https://video4.kalaiwa.de/assets/1441175o1.png]"
+    },
+    "https://www.fuehrerschein-bestehen.de/Erklaerungen/ab-welchem-verkehrszeichen-duerfen-sie-nur-mit-schrittgeschwindigkeit-weiterfahren-1-4-42-011": {
+        "question": "Ab welchem Verkehrszeichen dürfen Sie nur mit Schrittgeschwindigkeit weiterfahren?",
+        "answers": {
+            "img[https://video4.kalaiwa.de/assets/1442011o3.png]": {
+                "wrong": true,
+                "explanation": "Dieses Verkehrsschild bedeutet „Schleuder- und Rutschgefahr bei Nässe oder Schmutz auf der Fahrbahn“. Eine Schrittgeschwindigkeit ist hierbei nicht vorgegeben. Falls nötig, solltest Du jedoch deine Geschwindigkeit verringern, um rechtzeitig auf Gefahrensituationen reagieren zu können."
+            },
+            "img[https://video4.kalaiwa.de/assets/1442011o1.png]": {
+                "wrong": false,
+                "explanation": "Das Verkehrsschild zeigt dir an, dass ein verkehrsberuhigter Bereich beginnt. Hier darfst du mit deinem Fahrzeug nur in Schrittgeschwindigkeit fahren, da du jederzeit mit Fußgängern oder spielenden Kindern rechnen musst."
+            },
+            "img[https://video4.kalaiwa.de/assets/1442011o2.png]": {
+                "wrong": true,
+                "explanation": "Diese Verkehrszeichen-Kombination kündigt dir einen Kreisverkehr mit Vorfahrtsregelung an. Eine \"Schrittgeschwindigkeit\" gibt dieses Schild jedoch nicht vor."
+            }
+        }
+    },
+    "https://www.fuehrerschein-bestehen.de/Erklaerungen/ab-welcher-aufprallgeschwindigkeit-muessen-sie-mit-schweren-oder-toedlichen-verletzungen-rechnen-wenn-sie-keinen-sicherheitsgurt-angelegt-haben-2-2-21-111": {
+        "question": "Ab welcher Aufprallgeschwindigkeit müssen Sie mit schweren oder tödlichen Verletzungen rechnen, wenn Sie keinen Sicherheitsgurt angelegt haben?",
+        "answers": {
+            "Ab 80 km/h": {
+                "wrong": true,
+                "explanation": "Schon ab 30 km/h kann ein Aufprall ohne Sicherheitsgurt zu schweren Verletzungen führen."
+            },
+            "Ab 30 km/h": {
+                "wrong": false,
+                "explanation": "Bereits bei einer Geschwindigkeit von 30 km/h kann ein Aufprall zu schweren bis tödlichen Verletzungen führen, wenn man keinen Sicherheitsgurt trägt."
+            },
+            "Ab 50 km/h": {
+                "wrong": true,
+                "explanation": "Wenn man keinen Sicherheitsgurt trägt, kann ein Aufprall bereits bei 30 km/h sehr gefährlich werden."
+            }
+        }
+    }
+}
