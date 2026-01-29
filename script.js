@@ -2,8 +2,10 @@ const SITEMAP = "sitemap.xml";
 const CAPS_FILE = "caps.json";
 const QUESTIONS_FILE = "questions.json";
 const lastUpdated = "2026-01-03 20:29:31 MEZ";
-const checkIcon = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63 52" width="45"><rect x="1" y="4" fill="#00AF9D" width="47" height="47" rx="4"/><polygon fill="#FFFFFF"points="12.721,28.393 18.331,22.315 27.447,30.731 54.51,1.413 61.587,7.947 28.915,43.343"/></svg>`;
-const questionIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>`;
+const checkIcon = `<svg viewBox="0 0 63 52" width="45"><rect x="1" y="4" fill="#00AF9D" width="47" height="47" rx="4"/><polygon fill="#FFFFFF"points="12.721,28.393 18.331,22.315 27.447,30.731 54.51,1.413 61.587,7.947 28.915,43.343"/></svg>`;
+const questionIcon = `<svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>`;
+const questionImageIcon = `<svg height="25" viewBox="0 -960 960 960" width="25" fill="#ffffff"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm40-80h480L570-480 450-320l-90-120-120 160Zm-40 80v-560 560Z"/></svg>`;
+const questionVideoIcon = `<svg height="25" viewBox="0 -960 960 960" width="25" fill="#ffffff"><path d="m380-340 280-180-280-180v360Zm-60 220v-80H160q-33 0-56.5-23.5T80-280v-480q0-33 23.5-56.5T160-840h640q33 0 56.5 23.5T880-760v480q0 33-23.5 56.5T800-200H640v80H320ZM160-280h640v-480H160v480Zm0 0v-480 480Z"/></svg>`;
 
 let allItems = [];
 let capitalizeWords = [];
@@ -748,8 +750,10 @@ function render(list) {
         a.target = "_blank";
         a.className = "item";
         
+        const hasVideo = item.hasQuestion && questionsData[item.fullUrl]?.['question-assets']?.video;
+        const hasImage = item.hasQuestion && questionsData[item.fullUrl]?.['question-assets']?.img;
         const questionButton = item.hasQuestion ? 
-            `<button class="question-btn" title="Frage üben">${questionIcon}</button>` : '';
+            `<button class="question-btn" title="${hasVideo ? 'Film starten' : hasImage ? 'Bild anzeigen' : 'Frage üben'}">${hasVideo ? questionVideoIcon : hasImage ? questionImageIcon : questionIcon}</button>` : '';
         
         a.innerHTML = `
             <div class="icon">${checkIcon}</div>
