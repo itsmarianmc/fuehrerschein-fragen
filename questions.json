@@ -50,5 +50,138 @@
                 "explanation": "Wenn man keinen Sicherheitsgurt trägt, kann ein Aufprall bereits bei 30 km/h sehr gefährlich werden."
             }
         }
+    },
+    "https://www.fuehrerschein-bestehen.de/Erklaerungen/ab-welcher-hoehe-darf-ladung-bis-zu-50-cm-nach-vorn-ueber-ihr-kraftfahrzeug-hinausragen-1-2-22-108": {
+        "question": "Ab welcher Höhe darf Ladung bis zu 50 cm nach vorn über Ihr Kraftfahrzeug hinausragen?",
+        "answers": {
+            "2,50 m": {
+                "wrong": false,
+                "explanation": "Die Höhe, ab welcher die Ladung bis zu 50 cm nach vorn über das Fahrzeug hinausstehen darf, beträgt 2,50 m."
+            },
+            "3,00 m": {
+                "wrong": true,
+                "explanation": "Ab einer Mindesthöhe von 2,50 m über dem Kraftfahrzeug darf eine Ladung nach vorne hinausragen. Somit darf sie dies auch bei einer Höhe von 3 m."
+            },
+            "2,00 m": {
+                "wrong": true,
+                "explanation": "Die Höhe, ab welcher die Ladung vorne über das Fahrzeug hinausstehen darf, muss mindestens 2,50 m betragen."
+            }
+        }
+    },
+    "https://www.fuehrerschein-bestehen.de/Erklaerungen/ab-welcher-laenge-einer-fahrzeugkombination-muessen-sie-ausserorts-einen-so-grossen-abstand-zum-vorausfahrenden-fahrzeug-halten-dass-ein-ueberholendes-kraftfahrzeug-einscheren-kann-2-2-04-107": {
+        "question": "Ab welcher Länge einer Fahrzeugkombination müssen Sie außerorts einen so großen Abstand zum vorausfahrenden Fahrzeug halten, dass ein überholendes Kraftfahrzeug einscheren kann?",
+        "answer": {
+            "question": "Ab einer Länge von mehr als {empty_place_input} m",
+            "answer": "7",
+            "explanation": "Du musst außerorts einen Einkehrabstand zum vorausfahrenden Fahrzeug einhalten, wenn die Länge der Fahrzeugkombination mehr als 7 Meter beträgt. So gibst du überholenden Fahrzeugen die Möglichkeit, vor dir einzuscheren. Das ist wichtig, um diese nicht zu gefährden."
+        }
+    },
+    "https://www.fuehrerschein-bestehen.de/Erklaerungen/alle-drei-fahrzeuge-wollen-links-abbiegen-wer-hat-sich-richtig-eingeordnet-1-2-09-103-b": {
+        "question": "Alle drei Fahrzeuge wollen links abbiegen. Wer hat sich richtig eingeordnet?",
+        "question-assets": {
+            "img": "https://video4.kalaiwa.de/assets/1209103b.webp"
+        },
+        "answers": {
+            "Der grüne PKW": {
+                "wrong": true,
+                "explanation": "Der grüne PKW steht auf den Schienen und hat sich nicht an das Verkehrszeichen gehalten, dass signalisiert, dass rechts am Hindernis vorbeigefahren werden soll.",
+                "assets": {
+                    "img": "https://www.fuehrerschein-bestehen.de/Resourcen/Bilder/Erklaerungen/1-2-09-103-B-Verkehrszeichen-vorgeschriebene-vorbeifahrt-rechts.svg",
+                    "img-alt": "Verkehrszeichen 222: Gebotsschild"
+                }
+            },
+            "Der Gelbe Pkw": {
+                "wrong": false,
+                "explanation": "Der gelbe PKW ist wie vorgeschrieben rechts am Hindernis vorbeigefahren, um anschließend links abzubiegen."
+            },
+            "Der LKW": {
+                "wrong": true,
+                "explanation": "Der LKW hat sich auf der rechten Fahrspur eingeordnet. Er hätte sich links einordnen müssen, um nach links abbiegen zu können."
+            }
+        }
+    },
+    "https://www.fuehrerschein-bestehen.de/Erklaerungen/wie-verhalten-sie-sich-2-1-07-202": {
+        "question": "Wie verhalten Sie sich?",
+         "question-assets": {
+            "video": "https://video4.kalaiwa.de/assets/2107202v1440.mp4",
+            "img": "https://video4.kalaiwa.de/assets/1209103b.webp"
+        },
+       "answers": {
+            "Geschwindigkeit verringern, bremsbereit sein": {
+                "wrong": false,
+                "explanation": "So kann der rote PKW ungefährdet einparken und du weiterfahren, sobald er kein Hindernis mehr für dich darstellt."
+            },
+            "Auf den linken Fahrstreifen wechseln": {
+                "wrong": true,
+                "explanation": "Das ist nicht möglich, weil das Motorrad auf gleicher Höhe auf der linken Spur ist."
+            },
+            "Weiterfahren, Lichtzeichen geben": {
+                "wrong": true,
+                "explanation": "Der Fahrer wird hierauf nicht reagieren können, weil er mit Einparken beschäftigt ist. Reduziere die Geschwindigkeit und halte dich bremsbereit."
+            }
+        }
+    },
+    "https://www.fuehrerschein-bestehen.de/Erklaerungen/sie-moechten-nach-links-abbiegen-welche-fahrlinie-muessen-sie-einhalten-1-2-09-130-m": {
+        "question": "Sie möchten nach links abbiegen. Welche Fahrlinie müssen Sie einhalten?",
+        "question-assets": {
+            "img": "https://video4.kalaiwa.de/assets/1209130m.webp",
+            "unused": "Diese Frage ist seit 01.10.2024 nicht mehr im Fragenkatalog enthalten und wird auch nicht mehr geprüft.",
+            "more_variants": {
+                "text": "Achtung: Von dieser Frage gibt es %link_start%mehrere Varianten!%link_end%",
+                "link": "https://www.fuehrerschein-bestehen.de/Erklaerungen/sie-moechten-nach-links-abbiegen-welche-fahrlinie-muessen-sie-einhalten-1-2-09-130-m#fragevarianten"
+            }
+        },
+        "answers": {
+            "Die rechte Fahrlinie": {
+                "wrong": true,
+                "explanation": "Auf der rechten Fahrlinie solltest du dich einordnen, wenn du rechts abbiegen möchtest."
+            },
+            "Die mittlere Fahrlinie": {
+                "wrong": true,
+                "explanation": "Du musst dich zum Linksabbiegen links einordnen."
+            },
+            "Die linke Fahrlinie": {
+                "wrong": false,
+                "explanation": "Du befindest dich auf einer breiten Einbahnstraße. Daher ordne dich zum Linksabbiegen ganz links ein."
+            }
+        }
+    },
+    "https://www.fuehrerschein-bestehen.de/Erklaerungen/ihr-kraftfahrzeug-ist-mit-einem-spurhalte-assistenten-ausgeruestet-in-welcher-situation-kann-sie-dieses-system-unterstuetzen-2-7-01-153": {
+        "question": "Ihr Kraftfahrzeug ist mit einem Spurhalte-Assistenten ausgerüstet. In welcher Situation kann Sie dieses System unterstützen?",
+        "answers": {
+            "answer_header": "Das System warnt mich beim",
+            "unbeabsichtigten Verlassen der Fahrspur": {
+                "wrong": false,
+                "explanation": "Der Spurhalte-Assistent unterstützt dich dabei, die Fahrspur zu halten. Er warnt dich bei unabsichtlichem Verlassen der Fahrspur. Unbeabsichtigt ist, wenn du nicht blinkst."
+            },
+            "zu schnellen Durchfahren von Spurrillen": {
+                "wrong": true,
+                "explanation": "Der Spurhalte-Assistent warnt nicht bei zu schnellem Durchfahren von Spurrillen, sondern nur, wenn du die Spur nicht hältst."
+            },
+            "Überschreiten der zulässigen Höchstgeschwindigkeit": {
+                "wrong": true,
+                "explanation": "Der Spurhalte-Assistent warnt nicht bei Geschwindigkeitsüberschreitungen, sondern nur, wenn du die Spur nicht hältst."
+            }
+        }
+    },
+    "https://www.fuehrerschein-bestehen.de/Erklaerungen/an-ihrem-motorrad-treten-pendelbewegungen-auf-wodurch-koennen-diese-ausgeloest-worden-sein-2-7-01-132": {
+        "question": "An Ihrem Motorrad treten Pendelbewegungen auf. Wodurch können diese ausgelöst worden sein?",
+        "question-assets": {
+            "unused": "Diese Frage ist seit 01.04.2025 nicht mehr im Fragenkatalog enthalten und wird auch nicht mehr geprüft."
+        },
+        "answers": {
+            "Durch untertouriges Fahren": {
+                "wrong": true,
+                "explanation": "Durch untertouriges Fahren können keine Pendelbewegungen aufkommen."
+            },
+            "Durch die Beladung": {
+                "wrong": false,
+                "explanation": "Durch wackelige oder asymmetrische Beladung können Pendelbewegungen ausgelöst werden."
+            },
+            "Durch eine Unwucht der Räder": {
+                "wrong": false,
+                "explanation": "Eine Unwucht der Räder führt zu Vibrationen und erhöhtem Verschleiß und muss durch Gegengewichte ausgewuchtet werden. Dies ist ein möglicher Grund für Pendelbewegungen."
+            }
+        }
     }
 }
